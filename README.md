@@ -1,4 +1,4 @@
-[Uploading index.h<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="UK">
  <head> 
  <meta charset="UTF-8">
@@ -25,4 +25,4 @@
 	<p><b>Дивись на будь-якому пристрої</b></p>
 	<p>Підключай одночасно на 5 пристроях. Додаток можна встановити на телевізор, смартфон, ноутбук, планшет чи на Xbox</p>
  </body>
-</html>tml…]()
+</html>
