@@ -10,15 +10,50 @@ body{
     border-color: yellow;
 }
 .header-seo {
+    text-align: center;
     background-color: #153749;
     position: fixed;
     right: 0;
     top: 0;
     width: 100%;
+    height: 50px;
+
+.logo{
+    position: absolute;
+     right: 1050px;
+    width: 100px;
 }
-.free,h2{
+.free{
     background-color: #20bec6;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
 }
-h3{
+}
+h2{
+    background-color: #20bec6;
+    
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+    height: 50px;
+    width: 350px;
+    right:450px;
+
+}
+h3,h1{
     text-align: center;
+}
+.chat{
+    position: sticky;
+    top: 0;
+}
+.chat-icon{
+    margin-left: 1300px;
+}
+.m2__what-item {
+    outline-style: double;
 }
