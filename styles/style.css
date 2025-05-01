@@ -1,50 +1,100 @@
-body{
-    color: #fff;  
-    background-color: #768a97;
+body {
+    background: linear-gradient(to right, #000 60%, #111);
+    color: white;
+    display: flex;
+    
+  }
+
+.SWEET_TV{
+    background-color: #182936;
+    width: 100%;
 }
-.black{
+.interface{
     background-color: black;
     width: 100%;
     border-style: solid ;
     border-width: 2px;
-    border-color: yellow;
+    border-color: black;
 }
 .header-seo {
     text-align: center;
     background-color: #153749;
     position: fixed;
-    right: 0;
+    
     top: 0;
     width: 100%;
     height: 50px;
-
+}
 .logo{
     position: absolute;
      right: 1050px;
     width: 100px;
 }
-.free{
+.routes{
+
+    font-size: 20px;
+ .free{
     background-color: #20bec6;
+    font-size: 15px;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 200px;
     width: 200px;
     height: 30px;
     border-radius: 50px;
-}
-}
-h2{
-    background-color: #20bec6;
-    
-    border-radius: 50px;
+ }
+ .uk{
     position: absolute;
-    top: 100px;
-    height: 50px;
-    width: 350px;
-    right:450px;
+    right:50px;
+    width: 200px;
+    height: 10px;
 
+ }
+ .search{
+    position: absolute;
+    right: 27px;
+    width: 200px;
+    height: 10px;}
+ 
+ .Log_in{
+    position: absolute;
+    right: -10px;
+    width: 200px;
+    height: 10px;
 }
-h3,h1{
+}
+ 
+.content {
+    padding-left: 60px;
+    max-width: 50%;
+  }
+
+
+  .content h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+
+  .btn {
+    margin-top: 20px;
+    background-color: #00c4cc;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+  .tv-screen img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+  }
+h3,h1,h4{
     text-align: center;
 }
 .chat{
@@ -55,5 +105,48 @@ h3,h1{
     margin-left: 1300px;
 }
 .m2__what-item {
-    outline-style: double;
+    outline-style:double;
 }
+.ROZETKA{
+    text-align: center;
+}
+.free_7{ 
+    color: black;  
+    width: 200px;
+    border-radius: 50px;
+    background-color:rgb(255, 255, 255);
+}
+.m2__subsrc_lozad{
+    background-color: #20bec6;
+    width: 100%;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: #20bec6;
+}
+.h3_title {
+    font-size: 30px;
+    line-height: 34px;
+}
+.m2__family-block .h2_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+} 
+.main-page-ua__header-devices-content {
+    display: flex;
+    align-items: center;
+}
+
+.m2__channels-container .m2__what-text {
+    width: 80%;
+}
+
+.m2__what-text {
+max-width: 520px;
+}
+.Photo{
+    max-width: 700px;
+} 
