@@ -2,8 +2,12 @@ body {
     background: linear-gradient(to right, #000 60%, #111);
     color: white;
     display: flex;
-    
-  }
+    background: url('https://sweet-tv-static.sweet.tv/web/v2/home/UA-header_img-1729162981.png') no-repeat center center/cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
 
 .SWEET_TV{
     background-color: #182936;
@@ -15,7 +19,45 @@ body {
     border-style: solid ;
     border-width: 2px;
     border-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
 }
+.device{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    grid-row: 7 / 8;
+    grid-column: 1 / 3;
+    padding: 24px 15px;
+    max-width: 1194px;
+    width: 100%;
+    background-color: #000;
+}
+.main-page-ua__header-devices-content {
+    display: flex;
+    align-items: center;
+}
+.main-page-ua__header-devices-texts-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #fff;
+    margin: 0;
+}
+
+
+.main-page-ua__header-devices-texts-description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 133%;
+    color: #fff;
+    opacity: .4;
+    margin: 0;
+}
+
 .header-seo {
     text-align: center;
     background-color: #153749;
@@ -67,34 +109,90 @@ body {
 .content {
     padding-left: 60px;
     max-width: 50%;
+    margin: 150px 50px;
   }
 
 
   .content h1 {
-    font-size: 40px;
-    line-height: 1.2;
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
 
 
-  .btn {
-    margin-top: 20px;
+  .content button {
     background-color: #00c4cc;
-    color: white;
-    padding: 12px 24px;
+    color: #fff;
+    padding: 15px 30px;
     border: none;
-    border-radius: 25px;
-    font-size: 16px;
+    border-radius: 30px;
+    font-size: 18px;
     cursor: pointer;
-  }
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
 
-
-
-  .tv-screen img {
+  .tv-screen {
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+.m2__what-item{ 
+    outline-style:double;
+    margin-bottom: 20px;
+    max-width: 520px;
+      
+}
+.what-img{
+    position: absolute;
+    right: 150px;
+    top: 925px;
+    
+    }
+.what-item{
+    position: absolute;
+    right: 300px;
+    top: 1425px;
+}
+.m2__studios{
+    position: absolute;
+    right: 355px;
+    top: 1710px;
+}
+.m3__what-item {
+    text-align: center;
+}
+.gray{
+    color: rgb(156, 155, 155);
+}
+    
+.m2__what-tablet{
+    position: relative;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px #000;
-  }
-h3,h1,h4{
+    max-width: 582px;
+}
+.m2__what-tablet video {
+    width: 100%;
+    height: auto;
+    padding: 6% 5.9%;
+    background-size: cover;}
+.parrot{
+    position: absolute;
+    right: 350px;
+    top: 2000px;
+}
+.tv-screen img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+.img_sport{
+    position: absolute;
+    right: 150px;
+    top: 2450px; 
+}
+h4,h1{
     text-align: center;
 }
 .chat{
@@ -103,9 +201,6 @@ h3,h1,h4{
 }
 .chat-icon{
     margin-left: 1300px;
-}
-.m2__what-item {
-    outline-style:double;
 }
 .ROZETKA{
     text-align: center;
@@ -135,18 +230,14 @@ h3,h1,h4{
     color: #000;
     margin-bottom: 20px;
 } 
-.main-page-ua__header-devices-content {
-    display: flex;
-    align-items: center;
-}
 
-.m2__channels-container .m2__what-text {
-    width: 80%;
-}
 
-.m2__what-text {
-max-width: 520px;
-}
+
+
 .Photo{
     max-width: 700px;
 } 
+.main-page {
+    width: 40px;
+    height: 40px;
+}
