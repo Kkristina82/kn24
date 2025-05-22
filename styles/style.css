@@ -72,10 +72,11 @@ body {
      right: 1050px;
     width: 100px;
 }
-.routes{
-
+.routes {
     font-size: 20px;
- .free{
+}
+
+.free {
     background-color: #20bec6;
     font-size: 15px;
     position: absolute;
@@ -84,27 +85,29 @@ body {
     width: 200px;
     height: 30px;
     border-radius: 50px;
- }
- .uk{
+}
+
+.uk {
     position: absolute;
-    right:50px;
+    right: 50px;
     width: 200px;
     height: 10px;
+}
 
- }
- .search{
+.search {
     position: absolute;
     right: 27px;
     width: 200px;
-    height: 10px;}
- 
- .Log_in{
+    height: 10px;
+}
+
+.Log_in {
     position: absolute;
     right: -10px;
     width: 200px;
     height: 10px;
 }
-}
+
  
 .content {
     padding-left: 60px;
