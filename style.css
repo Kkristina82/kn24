@@ -66,17 +66,17 @@ body {
     top: 0;
     width: 100%;
     height: 50px;
+    z-index: 5;
 }
 .logo{
     position: absolute;
      right: 1050px;
     width: 100px;
 }
-.routes {
-    font-size: 20px;
-}
+.routes{
 
-.free {
+    font-size: 20px;
+ .free{
     background-color: #20bec6;
     font-size: 15px;
     position: absolute;
@@ -85,29 +85,27 @@ body {
     width: 200px;
     height: 30px;
     border-radius: 50px;
-}
-
-.uk {
+ }
+ .uk{
     position: absolute;
-    right: 50px;
+    right:50px;
     width: 200px;
     height: 10px;
-}
 
-.search {
+ }
+ .search{
     position: absolute;
     right: 27px;
     width: 200px;
-    height: 10px;
-}
-
-.Log_in {
+    height: 10px;}
+ 
+ .Log_in{
     position: absolute;
     right: -10px;
     width: 200px;
     height: 10px;
 }
-
+}
  
 .content {
     padding-left: 60px;
@@ -169,21 +167,34 @@ body {
 .gray{
     color: rgb(156, 155, 155);
 }
-    
+
+.m2__what-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  padding: 40px 0;
+}    
 .m2__what-tablet{
-    position: relative;
-    width: 100%;
     max-width: 582px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
 }
+
 .m2__what-tablet video {
     width: 100%;
     height: auto;
     padding: 6% 5.9%;
-    background-size: cover;}
+    background-size: cover;
+     border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
 .parrot{
-    position: absolute;
-    right: 350px;
-    top: 2000px;
+position: absolute;
+left: 300px;
+max-width: 200px;
+z-index: 1;
 }
 .tv-screen img {
     width: 600px;
@@ -205,35 +216,91 @@ h4,h1{
 .chat-icon{
     margin-left: 1300px;
 }
-.ROZETKA{
+.sports-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+
+.sports-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sports-text h3 {
+  font-size: 22px;
+  margin: 15px 0 5px;
+}
+
+.rozetka {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gift-promo {
+    margin-top:100px;
+    display: flex;
+    padding: 60px 80px;
+    height: 450px 
+}
+.m2__subsrc_lozad h2{
+   font-size: 55px; 
+}
+.free_7 p {
+    margin-top: 50px;
+    background-color: white;
+    color: #000000;
     text-align: center;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 15px;
 }
-.free_7{ 
-    color: black;  
-    width: 200px;
-    border-radius: 50px;
-    background-color:rgb(255, 255, 255);
+.m2__right-people {
+    position: absolute;
+    top: 4180px;
+    left: 50%;
+    transform: translateX(65%);
 }
-.m2__subsrc_lozad{
-    background-color: #20bec6;
-    width: 100%;
-    border-style: solid ;
-    border-width: 2px;
-    border-color: #20bec6;
+.m2__count p{
+    position: absolute;
+    top: 4475px;
+    left: 50%;
 }
-.h3_title {
-    font-size: 30px;
-    line-height: 34px;
+.m2_logo{
+    position: absolute;
+    top: 4250px;
+    left: 50%;
+}
+.m2__sound-img{
+    text-align: right;
+}
+.h1_title{
+    font-size: 45px; 
+    position: absolute;
+    top: 4750px;
+    left: 50px;
 }
 .m2__family-block .h2_title {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 48px;
     line-height: 58px;
-    text-align: center;
     color: #000;
-    margin-bottom: 20px;
+    text-align: center;
 } 
-
+.five p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    text-align: center;
+}
 
 
 
