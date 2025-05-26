@@ -106,13 +106,6 @@ body {
     height: 10px;
 }
 }
- 
-.content {
-    padding-left: 60px;
-    max-width: 50%;
-    margin: 150px 50px;
-  }
-
 
   .content h1 {
     font-size: 60px;
@@ -320,4 +313,11 @@ h4,h1{
 .main-page {
     width: 40px;
     height: 40px;
+}
+@media (max-width: 1024px) {
+  .content {
+    padding-left: 60px;
+    max-width: 50%;
+    margin: 150px 50px;
+  }
 }
