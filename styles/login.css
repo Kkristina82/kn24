@@ -1,0 +1,49 @@
+.family-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.family-content {
+  max-width: 600px;
+  flex: 1;
+  text-align: center;
+}
+
+.family-content h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #9c9b9b;
+  margin-bottom: 30px;
+}
+
+.family-apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.family-apps img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.family-image {
+  flex: 1;
+  max-width: 650px;
+  text-align: center;
+}
+
+.family-image img {
+  width: 100%;
+  height: auto;
+}

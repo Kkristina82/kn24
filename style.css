@@ -212,10 +212,9 @@ h4,h1{
 .chat{
     position: sticky;
     top: 0;
-}
-.chat-icon{
     margin-left: 1300px;
 }
+
 .sports-section {
   display: flex;
   justify-content: space-between;
@@ -288,21 +287,32 @@ h4,h1{
     top: 4750px;
     left: 50px;
 }
-.m2__family-block .h2_title {
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 58px;
+.m2__family-block{
+    font-size: 25px;
     color: #000;
+    background-image: url("https://sweet.tv/images/v2/index_2022/bg2-family.webp");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    
 } 
-.five p {
-    font-size: 20px;
-    line-height: 25px;
-    color: #000;
-    text-align: center;
+.gray_1{
+    color: rgb(156, 155, 155);
+    font-size: 16px;
+    margin-bottom: 30px;
 }
-
-
+.m2__family-apps {
+    margin-left: 150px;
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
 
 .Photo{
     max-width: 700px;
